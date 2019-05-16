@@ -4,7 +4,7 @@ Config.Animations = {
 
 	{
 		name  = 'festives',
-		label = 'Festivais',
+		label = 'Festives',
 		items = {
 			{label = "Fumer une cigarette", type = "scenario", data = {anim = "WORLD_HUMAN_SMOKING"}},
 			{label = "Jouer de la musique", type = "scenario", data = {anim = "WORLD_HUMAN_MUSICIAN"}},
@@ -22,7 +22,7 @@ Config.Animations = {
 
 	{
 		name  = 'greetings',
-		label = 'Saudações',
+		label = 'Salutations',
 		items = {
 			{label = "Saluer", type = "anim", data = {lib = "gestures@m@standing@casual", anim = "gesture_hello"}},
 			{label = "Serrer la main", type = "anim", data = {lib = "mp_common", anim = "givetake1_a"}},
@@ -34,7 +34,7 @@ Config.Animations = {
 
 	{
 		name  = 'work',
-		label = 'Trabalhos',
+		label = 'Travail',
 		items = {
 			{label = "Suspect : se rendre à la police", type = "anim", data = {lib = "random@arrests@busted", anim = "idle_c"}},
 			{label = "Pêcheur", type = "scenario", data = {anim = "world_human_stand_fishing"}},
@@ -59,7 +59,7 @@ Config.Animations = {
 
 	{
 		name  = 'humors',
-		label = 'Humores',
+		label = 'Humeurs',
 		items = {
 			{label = "Féliciter", type = "scenario", data = {anim = "WORLD_HUMAN_CHEERING"}},
 			{label = "Super", type = "anim", data = {lib = "mp_action", anim = "thanks_male_06"}},
@@ -97,7 +97,7 @@ Config.Animations = {
 
 	{
 		name  = 'misc',
-		label = 'Vários',
+		label = 'Divers',
 		items = {
 			{label = "Boire un café", type = "anim", data = {lib = "amb@world_human_aa_coffee@idle_a", anim = "idle_a"}},
 			{label = "S'asseoir", type = "anim", data = {lib = "anim@heists@prison_heistunfinished_biztarget_idle", anim = "target_idle"}},
@@ -114,7 +114,7 @@ Config.Animations = {
 
 	{
 		name  = 'attitudem',
-		label = 'Atitudes',
+		label = 'Attitudes',
 		items = {
 			{label = "Normal M", type = "attitude", data = {lib = "move_m@confident", anim = "move_m@confident"}},
 			{label = "Normal F", type = "attitude", data = {lib = "move_f@heels@c", anim = "move_f@heels@c"}},
@@ -143,19 +143,19 @@ Config.Animations = {
 	},
 	{
 		name  = 'porn',
-		label = 'Maiores +18',
+		label = 'PEGI 21',
 		items = {
 			{label = "Homme se faire su*** en voiture", type = "anim", data = {lib = "oddjobs@towing", anim = "m_blow_job_loop"}},
 			{label = "Femme faire une gaterie en voiture", type = "anim", data = {lib = "oddjobs@towing", anim = "f_blow_job_loop"}},
-			{label = "Homem beijando ** de carro", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_player"}},
-			{label = "Mulher fodida ** de carro", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_female"}},
-			{label = "Arranhando as bolas", type = "anim", data = {lib = "mp_player_int_uppergrab_crotch", anim = "mp_player_int_grab_crotch"}},
-			{label = "Faça charme", type = "anim", data = {lib = "mini@strip_club@idles@stripper", anim = "stripper_idle_02"}},
-			{label = "Michto pose", type = "scenario", data = {anim = "WORLD_HUMAN_PROSTITUTE_HIGH_CLASS"}},
-			{label = "Mostre seu peito", type = "anim", data = {lib = "mini@strip_club@backroom@", anim = "stripper_b_backroom_idle_b"}},
+			{label = "Homme bais** en voiture", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_player"}},
+			{label = "Femme bais** en voiture", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_female"}},
+			{label = "Se gratter les couilles", type = "anim", data = {lib = "mp_player_int_uppergrab_crotch", anim = "mp_player_int_grab_crotch"}},
+			{label = "Faire du charme", type = "anim", data = {lib = "mini@strip_club@idles@stripper", anim = "stripper_idle_02"}},
+			{label = "Pose michto", type = "scenario", data = {anim = "WORLD_HUMAN_PROSTITUTE_HIGH_CLASS"}},
+			{label = "Montrer sa poitrine", type = "anim", data = {lib = "mini@strip_club@backroom@", anim = "stripper_b_backroom_idle_b"}},
 			{label = "Strip Tease 1", type = "anim", data = {lib = "mini@strip_club@lap_dance@ld_girl_a_song_a_p1", anim = "ld_girl_a_song_a_p1_f"}},
 			{label = "Strip Tease 2", type = "anim", data = {lib = "mini@strip_club@private_dance@part2", anim = "priv_dance_p2"}},
-			{label = "Stip Tease no chão", type = "anim", data = {lib = "mini@strip_club@private_dance@part3", anim = "priv_dance_p3"}},
+			{label = "Stip Tease au sol", type = "anim", data = {lib = "mini@strip_club@private_dance@part3", anim = "priv_dance_p3"}},
 		}
 	}
 }
